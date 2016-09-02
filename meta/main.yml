@@ -13,4 +13,4 @@ galaxy_info:
 
 dependencies:
   - role: icopp.homebrew
-    src: https://github.com/icopp/ansible-homebrew.git
+    when: ansible_os_family == "Darwin"
