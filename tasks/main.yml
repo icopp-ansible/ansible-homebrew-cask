@@ -1,0 +1,6 @@
+---
+- name: Install Homebrew Cask via Homebrew
+  homebrew_tap:
+    name: caskroom/cask
+    state: present
+  when: ansible_os_family == "Darwin"

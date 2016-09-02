@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Ian Copp
+  description: Install Homebrew Cask via Homebrew. Does nothing on non-macOS platforms.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - packaging
+
+dependencies:
+  - role: icopp.homebrew
+    src: https://github.com/icopp/ansible-homebrew.git
