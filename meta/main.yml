@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Ian Copp
-  description: Install Homebrew Cask via Homebrew. Does nothing on non-macOS platforms.
+  description: Install Homebrew Cask via Homebrew.
   license: MIT
   min_ansible_version: 1.2
   platforms:

@@ -1,10 +1,10 @@
 # ansible-homebrew-cask
 
-Install Homebrew Cask via Homebrew. Does nothing on non-macOS platforms.
+Install Homebrew Cask via Homebrew.
 
 ## Dependencies
 
-* [icopp.homebrew](https://github.com/icopp/ansible-homebrew) (included as repository dependency)
+* [icopp.homebrew](https://github.com/icopp/ansible-homebrew)
 
 ## Example Playbook
 
